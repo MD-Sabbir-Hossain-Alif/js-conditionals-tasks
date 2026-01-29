@@ -1,7 +1,7 @@
 //* Task - 3 Solution: (Grade Calculator)
 //  TODO: Create a simple JavaScript program that takes a student's score as input and returns their corresponding grade based on the following grading scale:
 
-const averageMarks = 89;
+export const averageMarks = 89;
 
 if (averageMarks >= 90 && averageMarks <= 100) {
     console.log("Grade: A")
@@ -14,7 +14,7 @@ if (averageMarks >= 90 && averageMarks <= 100) {
 } else if (averageMarks >= 0 && averageMarks < 60) {
     console.log("Grade: F")
 } else {
-    console.log("Please Provide (0-100)")
+    console.log("Please Provide (0-100)");
 }
 
 // Output: Grade: B
